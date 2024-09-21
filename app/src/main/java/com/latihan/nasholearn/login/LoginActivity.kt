@@ -37,7 +37,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-        // Button login action
+        // Button login action ini
         binding.LBtn1.setOnClickListener {
             val email = binding.edtEmail.text.toString()
             val password = binding.edtConfPassword.text.toString()
