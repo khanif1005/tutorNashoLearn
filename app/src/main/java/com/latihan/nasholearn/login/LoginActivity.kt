@@ -36,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
                 binding.edtEmail.error = null
             }
         }
-//clueless
+
         // Button login action
         binding.LBtn1.setOnClickListener {
             val email = binding.edtEmail.text.toString()
