@@ -28,15 +28,6 @@ class LoginActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance().getReference("Akun2")
 
-        val imel = binding.edtEmail.text.toString()
-        binding.edtEmail.doOnTextChanged { text, start, before, count ->
-            if(!Patterns.EMAIL_ADDRESS.matcher(imel).matches()){
-                binding.edtEmail.error = "Email tidak sesuai dengan format "
-            } else {
-                binding.edtEmail.error = null
-            }
-        }
-
         // Button login action
         binding.LBtn1.setOnClickListener {
             val email = binding.edtEmail.text.toString()
