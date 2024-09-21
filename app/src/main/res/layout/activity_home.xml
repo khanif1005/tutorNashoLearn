@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="HomeActivity.HomeActivity">
+
+    <TextView
+        android:id="@+id/judul_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/judul_home"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginTop="300dp"/>
+
+    <TextView
+        android:id="@+id/judul_sub_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/judul_sub_home"
+        android:layout_below="@+id/judul_home"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppinsregular" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul_sub_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_logout"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppinsbold" />
+
+</RelativeLayout>

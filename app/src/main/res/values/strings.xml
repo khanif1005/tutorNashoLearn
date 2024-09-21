@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">nashoLearn</string>
+    <string name="judul_main">Get things done with TODO</string>
+    <string name="sub_judul_main">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="judul_home">Hello World!</string>
+    <string name="judul_sub_home">welcome home boys!</string>
+    <string name="btn_home">Login</string>
+    <string name="btn_logout">Logout</string>
+    <string name="R_FullName">Enter your full name</string>
+    <string name="R_Email">Enter your email</string>
+    <string name="R_Password">Create password</string>
+    <string name="R_conf_Password">Confirm password</string>
+    <string name="btn_Register">Register</string>
+    <string name="register_login_btn">Login</string>
+    <string name="login_hint">Confirm password</string>
+    <string name="login_email">Enter your email</string>
+</resources>
